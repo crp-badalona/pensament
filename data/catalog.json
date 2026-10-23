@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "production",
-  "generatedAt": "2026-10-23T13:09:10.592Z",
+  "generatedAt": "2026-10-23T13:26:43.072Z",
   "items": [
     {
       "ID": "R001",
@@ -28,7 +28,8 @@
       "Font / autoria": "Project Zero – Harvard Graduate School of Education (See, Think, Wonder)",
       "URL font": "https://pz.harvard.edu/resources/see-think-wonder",
       "URL plantilla editable": "",
-      "URL PDF": "",
+      "URL PDF": "https://crp-badalona.github.io/pensament/materials/R001_Veig_Penso_EmPregunto_Infantil_Primaria.pdf?utm_source=chatgpt.com",
+      "URL PDF secundària": "https://crp-badalona.github.io/pensament/materials/R001_Veig_Penso_EmPregunto_ESO_Batxillerat_FP.pdf",
       "URL imatge": "",
       "Paraules clau": "observar;interpretar;preguntes;evidències;metacognició;imatges",
       "Llicència / drets": "Rutina original de Project Zero. Cal verificar la llicència vigent i les condicions de reutilització dels materials originals. Text didàctic d’elaboració pròpia; no reproduir ni modificar documents originals sense autorització."
