@@ -1,4 +1,37 @@
 {
+  "schemaVersion": 1,
   "mode": "production",
-  "items": []
+  "generatedAt": "2026-10-23T12:57:26.173Z",
+  "items": [
+    {
+      "ID": "R001",
+      "Tipus": "Rutina",
+      "Nom": "Veig · Penso · Em pregunto",
+      "Finalitat principal": "Observar",
+      "Finalitats secundàries": "Interpretar;Investigar",
+      "Etapes": "Infantil;Primària;ESO;Batxillerat;FP",
+      "Àrees / contextos": "Totes les àrees",
+      "Moment didàctic": "Inici;Desenvolupament",
+      "Durada orientativa": "10–15 min",
+      "Descripció breu": "Distingir observacions, interpretacions i preguntes.",
+      "Pas 1": "Observar sense interpretar",
+      "Pas 2": "Formular interpretacions justificades",
+      "Pas 3": "Plantejar preguntes",
+      "Pas 4": "",
+      "Preguntes guia": "Què veig? | Què em fa pensar això? | Què em pregunto?",
+      "Exemple Infantil": "Observar un objecte natural",
+      "Exemple Primària": "Comparar fotografies del litoral",
+      "Exemple ESO": "Analitzar una imatge publicitària",
+      "Exemple Batxillerat / FP": "Examinar un gràfic o imatge tècnica",
+      "Suports DUA": "Resposta oral, dibuix, pictogrames i frases iniciades",
+      "Evidències observables": "Diferencia dades observades i inferències",
+      "Font / autoria": "Project Zero – Visible Thinking",
+      "URL font": "https://pz.harvard.edu/thinking-routines",
+      "URL plantilla editable": "",
+      "URL PDF": "",
+      "URL imatge": "",
+      "Paraules clau": "observar;imatges;preguntes",
+      "Llicència / drets": "Verificar adaptacions i drets"
+    }
+  ]
 }
