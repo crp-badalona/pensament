@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "mode": "production",
-  "generatedAt": "2026-10-23T12:57:26.173Z",
+  "generatedAt": "2026-10-23T13:01:15.233Z",
   "items": [
     {
       "ID": "R001",
@@ -31,6 +31,36 @@
       "URL PDF": "",
       "URL imatge": "",
       "Paraules clau": "observar;imatges;preguntes",
+      "Llicència / drets": "Verificar adaptacions i drets"
+    },
+    {
+      "ID": "R002",
+      "Tipus": "Rutina",
+      "Nom": "Penso · M’interessa · Investigo",
+      "Finalitat principal": "Investigar",
+      "Finalitats secundàries": "Observar;Reflexionar",
+      "Etapes": "Primària;ESO;Batxillerat;FP",
+      "Àrees / contextos": "STEAM;Ciències;Socials",
+      "Moment didàctic": "Inici",
+      "Durada orientativa": "10–20 min",
+      "Descripció breu": "Activar idees i orientar preguntes investigables.",
+      "Pas 1": "Explicitar idees inicials",
+      "Pas 2": "Identificar interessos",
+      "Pas 3": "Proposar vies d’investigació",
+      "Pas 4": "",
+      "Preguntes guia": "Què penso que sé? | Què m’interessa? | Com ho puc investigar?",
+      "Exemple Infantil": "",
+      "Exemple Primària": "Explorar materials i propietats",
+      "Exemple ESO": "Investigar una problemàtica ambiental",
+      "Exemple Batxillerat / FP": "Plantejar una recerca aplicada",
+      "Suports DUA": "Organitzador visual i conversa en parelles",
+      "Evidències observables": "Preguntes i propostes investigables",
+      "Font / autoria": "Bocins de Ciència – XTEC",
+      "URL font": "https://blocs.xtec.cat/bocinsdeciencia/metodologies/rutines-de-pensament/",
+      "URL plantilla editable": "",
+      "URL PDF": "",
+      "URL imatge": "",
+      "Paraules clau": "indagació;STEAM;preguntes",
       "Llicència / drets": "Verificar adaptacions i drets"
     }
   ]
