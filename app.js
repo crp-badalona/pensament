@@ -1,5 +1,5 @@
 'use strict';
-const CATEGORIES=[{name:'Observar',icon:'◉',desc:'Mirar i interpretar',color:'#dceef6'},{name:'Investigar',icon:'?',desc:'Preguntar i explorar',color:'#fff0c6'},{name:'Argumentar',icon:'≋',desc:'Justificar amb proves',color:'#f7dcd7'},{name:'Comparar',icon:'⇄',desc:'Trobar semblances i diferències',color:'#e4e4f8'},{name:'Perspectives',icon:'◎',desc:'Considerar altres mirades',color:'#ddf1df'},{name:'Reflexionar',icon:'✳',desc:'Revisar el que aprenem',color:'#f1e2f0'}];
+const CATEGORIES=[{name:'Observar',icon:'◉',desc:'Mirar i interpretar',color:'#e5f3f7'},{name:'Investigar',icon:'?',desc:'Preguntar i explorar',color:'#edf4d8'},{name:'Argumentar',icon:'≋',desc:'Justificar amb proves',color:'#eef7fa'},{name:'Comparar',icon:'⇄',desc:'Trobar semblances i diferències',color:'#e4edce'},{name:'Perspectives',icon:'◎',desc:'Considerar altres mirades',color:'#dceff4'},{name:'Reflexionar',icon:'✳',desc:'Revisar el que aprenem',color:'#f0f4e8'}];
 const $=id=>document.getElementById(id);let items=[];let mode='';const params=new URLSearchParams(location.search);const preview=params.get('demo')==='1';
 const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const split=s=>String(s??'').split(';').map(x=>x.trim()).filter(Boolean);
