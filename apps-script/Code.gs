@@ -14,7 +14,7 @@ const FIELDS = [
  'Pas 1','Pas 2','Pas 3','Pas 4','Preguntes guia','Exemple Infantil',
  'Exemple Primària','Exemple ESO','Exemple Batxillerat / FP','Suports DUA',
  'Evidències observables','Font / autoria','URL font','URL plantilla editable',
- 'URL PDF','URL imatge','Paraules clau','Llicència / drets'
+ 'URL PDF','URL PDF secundària','URL imatge','Paraules clau','Llicència / drets'
 ];
 function onOpen(){
  SpreadsheetApp.getUi().createMenu('Publicació web')
@@ -22,21 +22,59 @@ function onOpen(){
   .addItem('Publicar catàleg a GitHub','publishCatalog')
   .addToUi();
 }
+/** Valida tot el lot abans de fer cap petició a GitHub.
+ * Els enllaços a materials són opcionals: una fitxa pròpia pot no tenir PDF.
+ * «Validada» acredita la revisió editorial, inclosos fonts, etapes i drets.
+ * No es modifica automàticament cap estat del full.
+ */
 function getPublicRecords_(){
  const sheet=SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
  if(!sheet)throw new Error('No existeix el full: '+SHEET_NAME);
  const values=sheet.getDataRange().getDisplayValues();
- if(values.length<2)return [];
- const headers=values[0].map(v=>v.trim());
- ['ID','Nom','Estat'].forEach(h=>{if(!headers.includes(h))throw new Error('Falta la columna '+h)});
- const statusIndex=headers.indexOf('Estat');
- const seen=new Set();
- return values.slice(1).filter(row=>row[statusIndex].trim()===PUBLIC_STATUS).map(row=>{
-  const record={};FIELDS.forEach(field=>{const idx=headers.indexOf(field);if(idx>=0)record[field]=row[idx]||''});
-  if(!record.ID||!record.Nom)throw new Error('Una fitxa publicada no té ID o nom');
-  if(seen.has(record.ID))throw new Error('ID duplicat: '+record.ID);
-  seen.add(record.ID);return record;
+ if(!values.length)throw new Error('El catàleg no té capçaleres');
+ const headers=values[0].map(v=>String(v).trim());
+ const requiredHeaders=[...FIELDS.filter(h=>h!=='URL PDF secundària'), 'Estat','Revisió pedagògica','Data revisió'];
+ requiredHeaders.forEach(h=>{
+  if(!headers.includes(h))throw new Error('Falta la columna '+h);
+  if(headers.indexOf(h)!==headers.lastIndexOf(h))throw new Error('Columna duplicada: '+h);
  });
+ const records=[];const errors=[];const seen=new Set();
+ values.slice(1).forEach((row,index)=>{
+  const value=h=>String(row[headers.indexOf(h)]||'').trim();
+  if(value('Estat')!==PUBLIC_STATUS)return;
+  const label='Fila '+(index+2)+' ('+(value('ID')||'sense ID')+')';
+  const fail=msg=>errors.push(label+': '+msg);
+  if(value('Revisió pedagògica')!=='Validada')fail('cal Revisió pedagògica = Validada');
+  const required=['ID','Tipus','Nom','Finalitat principal','Etapes','Descripció breu',
+   'Pas 1','Pas 2','Pas 3','Pas 4','Preguntes guia','Suports DUA',
+   'Evidències observables','Font / autoria','Llicència / drets'];
+  required.forEach(h=>{if(!value(h))fail('falta '+h)});
+  if(value('Tipus')&&!['Rutina','Destresa'].includes(value('Tipus')))fail('Tipus no vàlid');
+  if(value('ID')&&seen.has(value('ID')))fail('ID duplicat');
+  if(value('ID'))seen.add(value('ID'));
+  const examples={'Infantil':'Exemple Infantil','Primària':'Exemple Primària',
+   'ESO':'Exemple ESO','Batxillerat':'Exemple Batxillerat / FP','FP':'Exemple Batxillerat / FP'};
+  value('Etapes').split(';').map(s=>s.trim()).filter(Boolean).forEach(stage=>{
+   if(!examples[stage])fail('etapa no reconeguda: '+stage);
+   else if(!value(examples[stage]))fail('falta '+examples[stage]);
+  });
+  const date=value('Data revisió');
+  const iso=date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const local=date.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  const parts=iso?[+iso[1],+iso[2],+iso[3]]:local?[+local[3],+local[2],+local[1]]:null;
+  const parsed=parts?new Date(Date.UTC(parts[0],parts[1]-1,parts[2])):null;
+  if(!parts||parsed.getUTCFullYear()!==parts[0]||parsed.getUTCMonth()!==parts[1]-1||parsed.getUTCDate()!==parts[2])
+   fail('cal una Data revisió vàlida (AAAA-MM-DD o DD/MM/AAAA)');
+  if(/pendent|cal verificar|per confirmar|per verificar|per validar/i.test(value('Llicència / drets')))
+   fail('els drets encara indiquen comprovacions pendents');
+  ['URL font','URL plantilla editable','URL PDF','URL PDF secundària','URL imatge'].forEach(h=>{
+   if(value(h)&&!/^https?:\/\/[^\s/?#]+(?:[/?#][^\s]*)?$/i.test(value(h)))fail(h+' ha de ser un URL http(s) vàlid');
+  });
+  const record={};FIELDS.forEach(field=>{const idx=headers.indexOf(field);if(idx>=0)record[field]=String(row[idx]||'').trim()});
+  records.push(record);
+ });
+ if(errors.length)throw new Error('Publicació bloquejada. No s’ha enviat cap dada a GitHub.\n'+errors.join('\n'));
+ return records;
 }
 function previewPublication(){
  const rows=getPublicRecords_();
