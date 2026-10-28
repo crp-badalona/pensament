@@ -1,6 +1,38 @@
 {
   "schemaVersion": 1,
   "mode": "production",
-  "generatedAt": "2026-10-26T16:31:59.834Z",
-  "items": []
+  "generatedAt": "2026-10-28T15:22:17.589Z",
+  "items": [
+    {
+      "ID": "R001",
+      "Tipus": "Rutina",
+      "Nom": "Veig · Penso · Em pregunto",
+      "Finalitat principal": "Observar",
+      "Finalitats secundàries": "Interpretar;Investigar",
+      "Etapes": "Infantil;Primària;ESO;Batxillerat;FP",
+      "Àrees / contextos": "Totes les àrees",
+      "Moment didàctic": "Inici;Desenvolupament",
+      "Durada orientativa": "10–15 min",
+      "Descripció breu": "Observar atentament, distingir observacions d’interpretacions, justificar les idees amb evidències i formular preguntes per continuar investigant.",
+      "Pas 1": "Presentar un estímul (imatge, objecte o fenomen) i donar temps per observar-lo individualment, sense explicacions prèvies.",
+      "Pas 2": "VEIG: descriure detalls observables sense avançar interpretacions. Registrar les aportacions.",
+      "Pas 3": "PENSO: proposar interpretacions i explicar quines observacions les sostenen; considerar explicacions alternatives.",
+      "Pas 4": "EM PREGUNTO: formular preguntes i compartir-les. Recuperar el registre després d’investigar per revisar les idees.",
+      "Preguntes guia": "Què observes exactament? On ho veus? | Què et fa pensar això? Quines evidències tens? Hi ha altres explicacions? | Què voldries saber? Com ho podríem investigar?",
+      "Exemple Infantil": "Observar una pinya, una fulla o una pedra: descriure colors, formes i textures; pensar què pot ser i preguntar-se d’on prové.",
+      "Exemple Primària": "Comparar dues fotografies d’una platja en moments diferents: descriure canvis, proposar causes i preguntar-se pel paper de la sorra i l’onatge.",
+      "Exemple ESO": "Analitzar una imatge publicitària: descriure elements visuals, interpretar el missatge i qüestionar públic destinatari, estereotips i intencions.",
+      "Exemple Batxillerat / FP": "Analitzar una imatge publicitària: descriure elements visuals, interpretar el missatge i qüestionar públic destinatari, estereotips i intencions.",
+      "Suports DUA": "Oferir estímuls accessibles i ampliables, temps flexible, participació individual o en parelles, i respostes orals, escrites, dibuixades o amb pictogrames; facilitar frases iniciades sense anticipar interpretacions.",
+      "Evidències observables": "Descriu detalls sense confondre sistemàticament observacions i inferències; justifica interpretacions amb evidències; formula preguntes pertinents; revisa alguna idea amb nova informació. Indicadors orientatius, no criteris curriculars oficials.",
+      "Font / autoria": "Project Zero – Harvard Graduate School of Education (See, Think, Wonder)",
+      "URL font": "https://pz.harvard.edu/resources/see-think-wonder",
+      "URL plantilla editable": "",
+      "URL PDF": "https://crp-badalona.github.io/pensament/materials/R001_Veig_Penso_EmPregunto_Infantil_Primaria.pdf?utm_source=chatgpt.com",
+      "URL PDF secundària": "https://crp-badalona.github.io/pensament/materials/R001_Veig_Penso_EmPregunto_ESO_Batxillerat_FP.pdf",
+      "URL imatge": "https://crp-badalona.github.io/pensament/materials/R001_Veig_Penso_EmPregunto_portada.svg",
+      "Paraules clau": "observar;interpretar;preguntes;evidències;metacognició;imatges",
+      "Llicència / drets": "Font original de Project Zero amb avís CC BY-NC-ND 4.0. Orientacions d’aplicació, exemples i suports d’elaboració pròpia; no són una traducció oficial ni una reproducció de la plantilla. Pendent de revisió de drets abans de publicar; enllaçar l’original i no modificar-ne ni redistribuir-ne una adaptació sense autorització."
+    }
+  ]
 }
