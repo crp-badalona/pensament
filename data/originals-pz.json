@@ -1,0 +1,521 @@
+{
+  "R001": {
+    "status": "verified",
+    "title": "See, Think, Wonder",
+    "page": "https://pz.harvard.edu/resources/see-think-wonder",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-05/See%2C%20Think%2C%20Wonder_0.pdf",
+        "localPath": "materials/originals-pz/R001_Project_Zero_en.pdf",
+        "sha256": "ca2b7111d64c891545b873e8c4da2358794e93961f30a2314a9b2990ce234356",
+        "bytes": 121450
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Spanish%20%285%29_0.pdf",
+        "localPath": "materials/originals-pz/R001_Project_Zero_es.pdf",
+        "sha256": "985f2c76a44b9a8e7e67c332c9eb5444efe8eefc998ed6245ae777e893720e04",
+        "bytes": 127398
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · See, Think, Wonder",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/see-think-wonder"
+      }
+    ]
+  },
+  "R002": {
+    "status": "verified",
+    "title": "Think, Puzzle, Explore",
+    "page": "https://pz.harvard.edu/resources/think-puzzle-explore",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-05/Think%2C%20Puzzle%2C%20Explore.pdf",
+        "localPath": "materials/originals-pz/R002_Project_Zero_en.pdf",
+        "sha256": "7597317dae3db7a02579b97257362c13e19bd5e24eda03b656c0cb27de828835",
+        "bytes": 122729
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Spanish%20%2813%29.pdf",
+        "localPath": "materials/originals-pz/R002_Project_Zero_es.pdf",
+        "sha256": "391b0b7fea86df60c614680ba1dbed370b48829f74984f8f391360dbdac1e63a",
+        "bytes": 130049
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · Think, Puzzle, Explore",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/think-puzzle-explore"
+      }
+    ]
+  },
+  "R003": {
+    "status": "verified",
+    "title": "Claim, Support, Question",
+    "page": "https://pz.harvard.edu/resources/claim-support-question",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-04/Claim%2C%20Support%2C%20Question.pdf",
+        "localPath": "materials/originals-pz/R003_Project_Zero_en.pdf",
+        "sha256": "79248d24e4597a46a49e11e5966be93e3a24577033fb51c1f556a62dd23696bc",
+        "bytes": 223824
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Afirmar%2C%20Apoyar%2C%20Cuestionar.pdf",
+        "localPath": "materials/originals-pz/R003_Project_Zero_es.pdf",
+        "sha256": "623f0f664dc7f8529bad6e2c98028348712f8bf3993ecfdd944afc615b14c34c",
+        "bytes": 134994
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · Claim, Support, Question",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/claim-support-question"
+      }
+    ]
+  },
+  "R004": {
+    "status": "verified",
+    "title": "Circle of Viewpoints",
+    "page": "https://pz.harvard.edu/resources/circle-of-viewpoints",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-04/Circle%20of%20Viewpoints.pdf",
+        "localPath": "materials/originals-pz/R004_Project_Zero_en.pdf",
+        "sha256": "dbae567e09fda65edf1d5547689da46f35c32fe4121c173386276f1efe6fc145",
+        "bytes": 125229
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/C%C3%ADrculo%20de%20Puntos%20de%20Vista.pdf",
+        "localPath": "materials/originals-pz/R004_Project_Zero_es.pdf",
+        "sha256": "165ad88b941034ba788f2db662b08a2f4509e484b2bd93696189b5cc3db3944c",
+        "bytes": 126859
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · Circle of Viewpoints",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/circle-of-viewpoints"
+      }
+    ]
+  },
+  "R010": {
+    "status": "external-verified",
+    "note": "Model K-W-L de Donna M. Ogle (1986). No és una rutina original de Project Zero.",
+    "downloads": [],
+    "attributionStatus": "Autoria del model confirmada",
+    "strategyAttribution": "Donna M. Ogle. Model K-W-L publicat el 1986.",
+    "attributionNote": "La fitxa del catàleg és un desenvolupament didàctic; no és una reproducció de l’article original.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Ogle, D. M. (1986). K-W-L: A Teaching Model That Develops Active Reading of Expository Text. The Reading Teacher, 39(6), 564–570.",
+        "url": "https://eric.ed.gov/?id=EJ329558"
+      },
+      {
+        "label": "Article original · DOI",
+        "url": "https://doi.org/10.1598/RT.39.6.11"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  "R011": {
+    "status": "unconfirmed",
+    "note": "Autoria original no confirmada; ús documentat a Bocins de música.",
+    "downloads": [],
+    "attributionStatus": "Autoria original no confirmada",
+    "strategyAttribution": "Rutina d’escolta documentada a Bocins de música, amb una plantilla allotjada el febrer de 2016 i una aplicació d’aula publicada el gener de 2017.",
+    "attributionNote": "La publicació al blog acredita la difusió i l’ús de la rutina, però no identifica amb certesa qui la va crear. No s’atribueix a Project Zero ni al CRP com a creadors de la rutina.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Bocins de música · Rutines de pensament",
+        "url": "https://blocs.xtec.cat/bocinsdemusica/rutines-de-pensament/"
+      },
+      {
+        "label": "Aplicació d’aula · James Rhodes i Bach (20/01/2017)",
+        "url": "https://blocs.xtec.cat/bocinsdemusica/2017/01/20/james-rhodes-i-bach/"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  "R006": {
+    "status": "verified",
+    "title": "3-2-1 Bridge",
+    "page": "https://pz.harvard.edu/resources/3-2-1-bridge",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-04/3-2-1%20Bridge.pdf",
+        "localPath": "materials/originals-pz/R006_Project_Zero_en.pdf",
+        "sha256": "91068d4f467c26ea79b1f052ab492fcc29d7ab4bc150943a36b6630438df9325",
+        "bytes": 248379
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Puente%203-2-1.pdf",
+        "localPath": "materials/originals-pz/R006_Project_Zero_es.pdf",
+        "sha256": "5a7ada17365270e7be6a38735924ec8a8576ffbffb00587a27424088c01a8cf9",
+        "bytes": 135194
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · 3-2-1 Bridge",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/3-2-1-bridge"
+      }
+    ]
+  },
+  "D001": {
+    "status": "pedagogical-reference",
+    "note": "Fitxa elaborada per al catàleg amb referents pedagògics verificats; no s’atribueix al CRP la creació de l’habilitat.",
+    "downloads": [],
+    "attributionStatus": "Referent pedagògic verificat; sense autoria exclusiva de l’habilitat",
+    "strategyAttribution": "Comparació i contrast: estratègia documentada en Robert Swartz i Carol McGuinness (2014).",
+    "attributionNote": "La seqüència del catàleg té correspondències amb aquest referent, però no és una fitxa original dels autors ni se n’ha demostrat una adaptació directa.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Swartz i McGuinness (2014), part 2, p. 16 · Compare and Contrast",
+        "url": "https://www.ibo.org/globalassets/new-structure/research/pdfs/student-thinking-skills-report-part-2.pdf"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  "D002": {
+    "status": "pedagogical-reference",
+    "note": "Fitxa elaborada per al catàleg amb referents pedagògics verificats; no s’atribueix al CRP la creació de l’habilitat.",
+    "downloads": [],
+    "attributionStatus": "Referent pedagògic verificat; sense autoria exclusiva de l’habilitat",
+    "strategyAttribution": "Classificació i categorització: habilitat general recollida, entre altres marcs, a Dimensions of Learning, de Robert J. Marzano i col·laboradors.",
+    "attributionNote": "No s’ha identificat un creador únic de l’habilitat ni una font exacta dels quatre passos d’aquesta fitxa.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Marzano · Dimensions of Learning (article original amb classificació de processos)",
+        "url": "https://files.ascd.org/staticfiles/ascd/pdf/journals/ed_lead/el_199002_marzano.pdf"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  "D003": {
+    "status": "pedagogical-reference",
+    "note": "Fitxa elaborada per al catàleg amb referents pedagògics verificats; no s’atribueix al CRP la creació de l’habilitat.",
+    "downloads": [],
+    "attributionStatus": "Referent pedagògic verificat; sense autoria exclusiva de l’habilitat",
+    "strategyAttribution": "Explicació causal amb destresa: referent documentat en Swartz i McGuinness (2014).",
+    "attributionNote": "La fitxa amplia el treball a factors, mecanismes, conseqüències i incertesa. No es presenta com un mapa original de Swartz.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Swartz i McGuinness (2014), part 1 · explicació causal",
+        "url": "https://ibo.org/globalassets/new-structure/research/pdfs/student-thinking-skills-report-part-1.pdf"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  "D004": {
+    "status": "pedagogical-reference",
+    "note": "Fitxa elaborada per al catàleg amb referents pedagògics verificats; no s’atribueix al CRP la creació de l’habilitat.",
+    "downloads": [],
+    "attributionStatus": "Referent pedagògic verificat; sense autoria exclusiva de l’habilitat",
+    "strategyAttribution": "Presa de decisions amb destresa: referent del Thinking-Based Learning, desenvolupat per Robert Swartz i col·laboradors.",
+    "attributionNote": "La matriu de criteris del catàleg és una concreció didàctica; no reprodueix literalment el mapa de decisió del TBL.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Swartz i McGuinness (2014), part 1, p. 24 · Skillful Decision Making",
+        "url": "https://ibo.org/globalassets/new-structure/research/pdfs/student-thinking-skills-report-part-1.pdf"
+      },
+      {
+        "label": "Robert Swartz · Energizing Learning",
+        "url": "https://www.ascd.org/el/articles/energizing-learning"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  "D005": {
+    "status": "pedagogical-reference",
+    "note": "Fitxa elaborada per al catàleg amb referents pedagògics verificats; no s’atribueix al CRP la creació de l’habilitat.",
+    "downloads": [],
+    "attributionStatus": "Referent clàssic verificat; sense autoria exclusiva de l’habilitat",
+    "strategyAttribution": "George Pólya, How to Solve It (1945): comprendre el problema, planificar, executar i revisar.",
+    "attributionNote": "La fitxa segueix una estructura comparable ampliada a contextos STEAM. La similitud no demostra una derivació directa de Pólya.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pólya · How to Solve It, Princeton University Press",
+        "url": "https://www.jstor.org/stable/j.ctvc773pk"
+      },
+      {
+        "label": "Les quatre fases de Pólya · Harvey Mudd College",
+        "url": "https://www.cs.hmc.edu/~keller/how_to_solve_it.html"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  "D006": {
+    "status": "pedagogical-reference",
+    "note": "Fitxa elaborada per al catàleg amb referents pedagògics verificats; no s’atribueix al CRP la creació de l’habilitat.",
+    "downloads": [],
+    "attributionStatus": "Referents metodològics verificats; fitxa de síntesi",
+    "strategyAttribution": "SIFT, de Mike Caulfield (2019), i lectura lateral estudiada per Sam Wineburg i Sarah McGrew.",
+    "attributionNote": "La seqüència combina procediments de verificació; no és una reproducció exacta de SIFT ni una fitxa original de Wineburg i McGrew.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Caulfield (2019) · SIFT (The Four Moves)",
+        "url": "https://hapgood.us/2019/06/19/sift-the-four-moves/"
+      },
+      {
+        "label": "Wineburg i McGrew · Lateral Reading and the Nature of Expertise",
+        "url": "https://cor.inquirygroup.org/research/lateral-reading-and-the-nature-of-expertise/"
+      }
+    ],
+    "checked": "2026-10-29"
+  },
+  "R005": {
+    "status": "verified",
+    "title": "I Used to Think... Now I Think... ",
+    "page": "https://pz.harvard.edu/resources/i-used-think-now-i-think",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-07/I%20Used%20to%20Think...%20Now%20I%20Think....pdf",
+        "localPath": "materials/originals-pz/R005_Project_Zero_en.pdf",
+        "sha256": "f7338980f661a68e035fb5ba73f4d4e213175ce9c5e74eda1ffe3dcbd2628e9c",
+        "bytes": 128668
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Spanish%20%284%29.pdf",
+        "localPath": "materials/originals-pz/R005_Project_Zero_es.pdf",
+        "sha256": "03477bc12c8fc6b581a796c5772584e4291fab73f069a9e0b5142bf1ad529f9a",
+        "bytes": 131547
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · I Used to Think... Now I Think... ",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/i-used-think-now-i-think"
+      }
+    ]
+  },
+  "R009": {
+    "status": "verified",
+    "title": "What Makes You Say That? (Adapted)",
+    "page": "https://pz.harvard.edu/resources/what-makes-you-say",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/What%20Makes%20You%20Say%20That_0.pdf",
+        "localPath": "materials/originals-pz/R009_Project_Zero_en.pdf",
+        "sha256": "a2da45e4eb38a29ba9ca8c1c74cc57896c7f0d26a2b676e59d2d4cde526eb6c1",
+        "bytes": 274860
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Spanish%20%286%29_1.pdf",
+        "localPath": "materials/originals-pz/R009_Project_Zero_es.pdf",
+        "sha256": "29982f7cec39d602021dcc2bb0ccbbf09ee03f05ee575cbab5f98f29d770bba9",
+        "bytes": 128087
+      }
+    ],
+    "note": "La pàgina actual identifica la rutina com Adapted; el PDF anglès enllaçat és l’edició oficial de 2019 amb CC BY-NC-ND, conservada sense modificar.",
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · What Makes You Say That? (Adapted)",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/what-makes-you-say"
+      }
+    ]
+  },
+  "R012": {
+    "status": "verified",
+    "title": "Headlines",
+    "page": "https://pz.harvard.edu/resources/headlines",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-05/Headlines.pdf",
+        "localPath": "materials/originals-pz/R012_Project_Zero_en.pdf",
+        "sha256": "65ce373f1105ecf99127c13ae67a034d27df9ffd3a7f88e1020e9fb94ecef804",
+        "bytes": 122935
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Spanish.pdf",
+        "localPath": "materials/originals-pz/R012_Project_Zero_es.pdf",
+        "sha256": "89b78e73ca92072d6d78c6f0d8346bdc22252fdd175b62ce293c911cb8c7bbbb",
+        "bytes": 144032
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · Headlines",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/headlines"
+      }
+    ]
+  },
+  "R007": {
+    "status": "verified",
+    "title": "Connect, Extend, Challenge",
+    "page": "https://pz.harvard.edu/resources/connect-extend-challenge",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-03/Connect%2C%20Extend%2C%20Challenge.pdf",
+        "localPath": "materials/originals-pz/R007_Project_Zero_en.pdf",
+        "sha256": "49103b0cdd2f21e072a832bf22d543a3896da894dba6cca60f1b60aab3bf0676",
+        "bytes": 127687
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Conectar%2C%20Ampliar%2C%20Desafiar.pdf",
+        "localPath": "materials/originals-pz/R007_Project_Zero_es.pdf",
+        "sha256": "87c8b875154f0dd934d61b5bd65e914fb313a69bd81aee6daf365de91f56527a",
+        "bytes": 124512
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · Connect, Extend, Challenge",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/connect-extend-challenge"
+      }
+    ]
+  },
+  "R008": {
+    "status": "verified",
+    "title": "Compass Points",
+    "page": "https://pz.harvard.edu/resources/compass-points",
+    "credit": "President and Fellows of Harvard College and Project Zero, Harvard Graduate School of Education.",
+    "license": "CC BY-NC-ND 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "checked": "2026-10-29",
+    "downloads": [
+      {
+        "language": "en",
+        "label": "English",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-04/Compass%20Points.pdf",
+        "localPath": "materials/originals-pz/R008_Project_Zero_en.pdf",
+        "sha256": "208aa2e15db062445a93fc447636acce5f9ef2cef2f108cf64a2c2070dba3928",
+        "bytes": 128626
+      },
+      {
+        "language": "es",
+        "label": "Español",
+        "officialUrl": "https://pz.harvard.edu/sites/default/files/2026-01/Puntos%20de%20la%20Br%C3%BAjula.pdf",
+        "localPath": "materials/originals-pz/R008_Project_Zero_es.pdf",
+        "sha256": "a665c7f52572d15f6ffa2a2d2741d5c2fb7f7a9d7fddaa1f1db268a9e51c9bb5",
+        "bytes": 128464
+      }
+    ],
+    "attributionStatus": "Autoria de la rutina confirmada",
+    "strategyAttribution": "Project Zero, Harvard Graduate School of Education · Compass Points",
+    "attributionNote": "Els originals descarregables es conserven sense modificar. Les orientacions i els exemples del catàleg són un desenvolupament didàctic separat, no una traducció autoritzada.",
+    "materialAttribution": "Orientacions, exemples i maquetació preparats per al CRP Ciutat de Badalona. Aquesta atribució es refereix al material del catàleg, no a la creació de l’habilitat o de l’estratègia.",
+    "references": [
+      {
+        "label": "Pàgina oficial de la rutina",
+        "url": "https://pz.harvard.edu/resources/compass-points"
+      }
+    ]
+  }
+}

@@ -1,48 +1,59 @@
-# Fem visible el pensament · CRP Ciutat de Badalona
+# Actualització d’originals, autories i referents
 
-Paquet complet actualitzat el 26/10/2026. Web existent: https://crp-badalona.github.io/pensament/.
+29 d’octubre de 2026. Aquest paquet substitueix l’actualització anterior d’originals de Project Zero. És un paquet per afegir al web existent, no un lloc independent.
 
-## Novetats
+## Aplicar els canvis al web
 
-- Comencem? és el primer bloc, immediatament sota la capçalera.
-- Botó Inici a les dues pàgines, dins de les fitxes del catàleg i a les 17 plantilles editables. La capçalera es manté visible mentre es desplaça la pàgina.
-- Paleta del web del Servei Educatiu: verd llima #8aa500 i blau turquesa #0988a9, amb variants fosques per al contrast de text.
-- Guia amb definicions, diferències, exemples, quatre vídeos, documents i bibliografia.
-- Catàleg públic: 18 fitxes, instantània consultada el 26/10/2026. Les dades es continuen gestionant des del Sheets.
-- Materials: 36 PDF de fitxes (R001 inclòs), 17 plantilles HTML, 18 portades SVG i dos PDF de referència.
+1. Descomprimeix el ZIP.
+2. Obre https://github.com/crp-badalona/pensament a la branca main.
+3. Puja el contingut respectant les carpetes:
+   - A l’arrel: substitueix index.html, app.js i comencem.html; afegeix autories.html.
+   - A data: afegeix o substitueix originals-pz.json.
+   - A materials: afegeix originals-pz i interpretacions, i substitueix les 17 plantilles HTML editables incloses.
+4. Conserva la resta dels fitxers: styles.css, theme.css, comencem.css, comencem.js, els PDF de l’alumnat, imatges i el catàleg existent. No s’han de buidar les carpetes abans de pujar els fitxers.
+5. Fes Commit changes i espera que el desplegament de Pages finalitzi.
+6. Recarrega amb Ctrl+Shift+R. Comprova R001 (dos originals descarregables), R010 (Donna Ogle), R011 (autoria no confirmada), D001 (referent de comparació i contrast), D006 (SIFT i lectura lateral), les orientacions en català i el retorn a l’inici.
 
-## Actualitzar el web existent
+No cal executar l’Apps Script ni modificar el Sheets perquè el web mostri les atribucions corregides. El registre d’autories es carrega independentment del catàleg i no se sobreescriu en publicar des del Sheets. El paquet no inclou ni substitueix data/catalog.json ni data/catalog.demo.json.
 
-1. Descomprimeix el ZIP. No pugis el ZIP directament.
-2. Entra a https://github.com/crp-badalona/pensament i selecciona la branca main.
-3. A Code → Add file → Upload files, arrossega EL CONTINGUT de la carpeta descomprimida. index.html ha de quedar a l’arrel, al mateix nivell que styles.css, app.js i theme.css. No arrosseguis la carpeta exterior sencera.
-4. Conserva l’estructura de materials/ i data/. La carpeta .github/ és de configuració i pot estar amagada: si ja tens el desplegament actiu, conserva la que hi ha al repositori. No cal canviar apps-script/ ni els paràmetres del teu Sheets.
-5. Escriu «Actualitza Comencem, navegació i colors» i prem Commit changes a main.
-6. A Actions, espera que Deploy static site to Pages acabi en verd. Si la configuració de Pages no és aquesta, consulta el paràgraf següent.
-7. Obre https://crp-badalona.github.io/pensament/ i fes Ctrl+Shift+R (Mac: Cmd+Shift+R).
-8. Comprova que Comencem? surt primer, que el botó obre comencem.html i que Inici torna a la portada. Prova una fitxa del catàleg, una plantilla editable i els dos PDF de referència.
+## Organització de l’autoria
 
-El paquet conté menys de 100 fitxers i cap supera 25 MiB. Si el navegador no et deixa pujar-los tots alhora, fes una primera pujada dels fitxers de l’arrel i una altra de materials/ i data/, sempre des de l’arrel del repositori. Si puges fitxers des de dins de materials/ a GitHub, arrossega el seu contingut, no la carpeta materials una altra vegada.
+Cada fitxa i cada material HTML inclouen:
+- Autoria confirmada de l’estratègia o referents pedagògics verificats.
+- Estat de la verificació i límits d’atribució.
+- Elaboració dels materials del catàleg, diferenciada de la invenció de l’habilitat.
+- Enllaços de referència.
 
-### Configuració de Pages
+La pàgina autories.html reuneix les 18 entrades i les condicions dels documents. Es pot obrir des d’Inici, Comencem? i les fitxes.
 
-Com que el web ja funciona, mantén la configuració que ja et publica el lloc. El paquet inclou .github/workflows/pages.yml per a GitHub Actions. Si utilitzes aquest workflow, Settings → Pages → Build and deployment → Source ha de ser GitHub Actions; no cal crear cap workflow addicional. Si publiques directament des d’una branca, aquesta versió també funciona amb main i /(root): comprova el desplegament pages-build-deployment.
+R001–R009 i R012: rutines de Project Zero amb 20 PDF oficials, deu en anglès i deu en castellà. Còpies sense modificar amb crèdits i CC BY-NC-ND 4.0. El registre conserva la URL oficial, la data de verificació i SHA-256. R009 anglès correspon al PDF oficial de 2019 amb llicència explícita; la pàgina actual indica «Adapted» i no és una edició idèntica.
 
-### Què cal fer al Sheets?
+R010: K-W-L de Donna M. Ogle (1986), amb referència a l’article original i al seu DOI. No es redistribueix l’article: no s’ha verificat una llicència de redistribució.
 
-Per aquests canvis de disseny i navegació, no cal tocar el Sheets ni tornar a enganxar l’Apps Script. El paquet conserva el catàleg públic de 18 fitxes. Si has editat el Sheets després d’aquesta instantània, torna a executar el teu menú Publicació web → Publicar catàleg a GitHub després de pujar el paquet: així s’aplicaran les dades més recents.
+R011: ús documentat a Bocins de música i autoria original pendent de confirmar. Ni allotjar una plantilla ni les metadades del document permeten acreditar la persona creadora. No es distribueix la plantilla de tercers.
 
-### Si encara veus la versió antiga
+D001: comparació i contrast documentada per Swartz i McGuinness (2014).
+D002: classificació, entre altres marcs, a Dimensions of Learning de Marzano i col·laboradors.
+D003: explicació causal documentada en Swartz i McGuinness (2014).
+D004: presa de decisions amb destresa del TBL, desenvolupat per Swartz i col·laboradors.
+D005: referent clàssic de Pólya, How to Solve It (1945).
+D006: referents SIFT de Mike Caulfield i lectura lateral de Wineburg i McGrew.
 
-Comprova primer que el darrer desplegament apareix en verd a Actions. Després fes una recàrrega completa. index.html, comencem.html i theme.css han de ser a l’arrel, no en una subcarpeta. Els estils i scripts duen un identificador de versió per facilitar l’actualització de la memòria cau.
+Aquests referents no acrediten un creador exclusiu de les habilitats ni demostren que les fitxes del catàleg siguin adaptacions directes. Els textos ho indiquen expressament.
 
-### Comprovacions realitzades
+## Originals, interpretacions i fulls d’alumnat
 
-Integritat de les rutes locals i dels materials de les 18 fitxes; ordre del bloc inicial; retorn Inici a totes les pàgines HTML i a la finestra de detall; interaccions de la guia; proves del control de publicació. No s’ha pogut obrir la versió local en el navegador de revisió: cal completar la comprovació visual al web després del desplegament. El paquet encara no s’ha publicat al repositori.
+Els originals es descarreguen sense canvis de llengua, maquetació o contingut. Les orientacions en català es presenten amb «Si vols la nostra interpretació en català...» i no es fan passar per traduccions oficials o autoritzades. Inclouen exemples i suports didàctics preparats per al CRP. Els fulls PDF per a l’alumnat es conserven intactes i apareixen com a materials diferents dels originals. La llicència de Harvard no s’aplica automàticament als materials propis ni a les altres fonts.
 
-Fonts tècniques: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository i https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site.
+S’ha retirat de les recomanacions de Comencem? el recull visual que no identificava clarament l’autoria. No cal esborrar fitxers del repositori per instal·lar aquest paquet.
 
-## Prova local opcional
+## Taules de consulta
 
-Des de la carpeta del projecte, executa python3 -m http.server 8000 i obre http://localhost:8000/. index.html necessita HTTP per llegir el JSON del catàleg. ?demo=1 activa les dades de demostració, que no són el catàleg públic.
+URL_originals_Project_Zero.csv: fonts, idioma, PDF oficial i descàrrega al web, amb l’estat d’atribució actualitzat.
+ATRIBUCIONS_CATALEG.csv: propostes corregides per als camps «Font / autoria», «URL font» i «Llicència / drets», relacionades per ID. És un document de consulta: si el traspasses al Sheets, fes-ho pel nom de columna i per ID, sense substituir textos, estats de publicació, validació o dates. El funcionament del web no depèn d’aquest traspàs.
 
+## Verificació
+
+18 atribucions i referents; 18 pàgines d’interpretació; 17 plantilles editables; navegació al registre; 20 originals PDF amb integritat SHA-256; sintaxi JavaScript i prova funcional dels blocs de fitxa comprovades. Els scripts de prova locals no s’inclouen com a contingut del web.
+
+La publicació a GitHub no s’ha pogut fer perquè no hi ha una sessió connectada amb accés al repositori. Aquesta actualització no s’ha revisat visualment en un navegador després de publicar.
