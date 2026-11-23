@@ -11,7 +11,7 @@ for(const button of contextButtons){button.addEventListener('click',()=>{
  const text={'context-title':item.title,'context-description':item.description,'routine-name':item.routine,'routine-example':item.routineText,'skill-name':item.skill,'skill-example':item.skillText,'meta-example':item.meta};
  for(const [id,value] of Object.entries(text))document.getElementById(id).textContent=value;
  for(const [id,kind,label] of [['routine-link','routineId','rutina'],['skill-link','skillId','destresa']]){
-  const link=document.getElementById(id);link.href='index.html#fitxa-'+item[kind];link.textContent='Obre la '+label+' '+item[kind]+' →';
+  const link=document.getElementById(id);link.href='caixa-eines.html#fitxa-'+item[kind];link.textContent='Obre la '+label+' '+item[kind]+' →';
  }
 });}
 for(const button of document.querySelectorAll('.video-play')){button.addEventListener('click',()=>{
